@@ -2,6 +2,6 @@
 <h4 *ngIf="nascondi">
   Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </h4>
-<button (click)="nascondi = !nascondi" class="btn btn-secondary my-3">
-  Mostra/nascondi
+<button class="btn btn-secondary my-3" (click)="nascondi = !nascondi">
+  {{ nascondi ? "Nascondi" : "Mostra" }}
 </button>
